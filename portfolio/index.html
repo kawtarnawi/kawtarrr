@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Kawtar Naoui Kheir — étudiante en ingénierie logicielle.">
+  <title>Kawtar Naoui Kheir | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">KN<span>.</span></a>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#cases">Case Studies</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#work">Recent work</a>
+      <a href="#contact">Get In Touch</a>
+    </nav>
+    <div class="socials">
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="#" aria-label="Behance">Bē</a>
+      <a href="#" aria-label="Twitter">♥</a>
+    </div>
+    <button class="menu" aria-label="Ouvrir le menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Étudiante en ingénierie logicielle</p>
+        <h1>Bonjour, je suis<br><span>Kawtar Naoui Kheir.</span></h1>
+        <p class="intro">
+          Je crée des interfaces web modernes, simples et fonctionnelles.
+          J'aime transformer des idées en expériences digitales propres et faciles à utiliser.
+        </p>
+        <a class="cta" href="#contact">Let's get started <span>›</span></a>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait">
+        <img src="./WhatsApp Image 2026-07-28 at 23.31.09.jpeg" alt="Kawtar Naoui Kheir">
+      </div>
+        <div class="glow"></div>
+      </div>
+    </section>
+
+    <section class="worked section">
+      <p class="mono-label">Worked with</p>
+      <div class="logos">
+        <div>HTML5</div>
+        <div>CSS3</div>
+        <div>JavaScript</div>
+        <div>Python</div>
+        <div>MySQL</div>
+      </div>
+    </section>
+
+    <section id="cases" class="content-section section">
+      <div class="section-heading">
+        <p class="mono-label">Case Studies</p>
+        <h2>Des projets pensés pour être utiles.</h2>
+        <p>Quelques projets académiques et personnels qui montrent mon approche du développement web.</p>
+      </div>
+      <div class="case-grid">
+        <article class="card">
+          <div class="card-number">01</div>
+          <h3>E-Résultat</h3>
+          <p>Interface web pour faciliter l'envoi des résultats d'analyses médicales aux patients.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="#work">Voir le projet →</a>
+        </article>
+        <article class="card">
+          <div class="card-number">02</div>
+          <h3>QuizMaster</h3>
+          <p>Application de quiz avec espaces administrateur et étudiant, réalisée avec une interface claire.</p>
+          <div class="tags"><span>HTML5</span><span>CSS</span><span>Vanilla JS</span></div>
+          <a href="#work">Voir le projet →</a>
+        </article>
+        <article class="card">
+          <div class="card-number">03</div>
+          <h3>Data Dashboard</h3>
+          <p>Dashboard d'analyse de données avec Python, CSV, MySQL et visualisations.</p>
+          <div class="tags"><span>Python</span><span>MySQL</span><span>Matplotlib</span></div>
+          <a href="#work">Voir le projet →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="quote-section section">
+      <p class="mono-label">Testimonials</p>
+      <blockquote>
+        “Une étudiante sérieuse, motivée et organisée, avec une vraie volonté d'apprendre et de progresser.”
+      </blockquote>
+      <p class="quote-author">— Academic / Project experience</p>
+    </section>
+
+    <section id="work" class="content-section section">
+      <div class="section-heading">
+        <p class="mono-label">Recent work</p>
+        <h2>Ce que je construis actuellement.</h2>
+      </div>
+      <div class="work-list">
+        <article class="work-item">
+          <span>01</span>
+          <div>
+            <h3>Interfaces Web</h3>
+            <p>Des pages responsives avec HTML, CSS et JavaScript.</p>
+          </div>
+          <b>↗</b>
+        </article>
+        <article class="work-item">
+          <span>02</span>
+          <div>
+            <h3>Développement logiciel</h3>
+            <p>Python, Java, C# et bases de données dans mon parcours d'ingénierie.</p>
+          </div>
+          <b>↗</b>
+        </article>
+        <article class="work-item">
+          <span>03</span>
+          <div>
+            <h3>Analyse de données</h3>
+            <p>Exploration, traitement et visualisation de données.</p>
+          </div>
+          <b>↗</b>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <p class="mono-label">Get In Touch</p>
+        <h2>Un projet en tête ?<br>Parlons-en.</h2>
+        <p>Je suis ouverte aux projets, collaborations et opportunités de stage.</p>
+      </div>
+      <a class="cta" href="mailto:kawtar.naoui.kheir@example.com">Contact me <span>›</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Kawtar Naoui Kheir</span>
+    <span>Built with HTML, CSS & JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
